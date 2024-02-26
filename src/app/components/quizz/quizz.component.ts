@@ -54,6 +54,7 @@ export class QuizzComponent {
     }
   }
 
+  // Calculo do resultado
   async checkResult(answers: string[]) {
     const result = answers.reduce((previous, current, i, arr) => {
       if (
